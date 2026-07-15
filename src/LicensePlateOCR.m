@@ -1,26 +1,26 @@
-function varargout = LicensePlateOCR(varargin)
-% LicensePlateOCR MATLAB code for LicensePlateOCR.fig
-%      LicensePlateOCR, by itself, creates a new LicensePlateOCR or raises the existing
+function varargout = PROJ(varargin)
+% PROJ MATLAB code for PROJ.fig
+%      PROJ, by itself, creates a new PROJ or raises the existing
 %      singleton*.
 %
-%      H = LicensePlateOCR returns the handle to a new LicensePlateOCR or the handle to
+%      H = PROJ returns the handle to a new PROJ or the handle to
 %      the existing singleton*.
 %
-%      LicensePlateOCR('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in LicensePlateOCR.M with the given input arguments.
+%      PROJ('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in PROJ.M with the given input arguments.
 %
-%      LicensePlateOCR('Property','Value',...) creates a new LicensePlateOCR or raises the
+%      PROJ('Property','Value',...) creates a new PROJ or raises the
 %      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before LicensePlateOCR_OpeningFcn gets called.  An
+%      applied to the GUI before PROJ_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to LicensePlateOCR_OpeningFcn via varargin.
+%      stop.  All inputs are passed to PROJ_OpeningFcn via varargin.
 %
 %      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
 %      instance to run (singleton)".
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
-% Edit the above text to modify the response to help LicensePlateOCR
+% Edit the above text to modify the response to help PROJ
 
 % Last Modified by GUIDE v2.5 06-Jun-2023 20:58:59
 
@@ -28,8 +28,8 @@ function varargout = LicensePlateOCR(varargin)
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @LicensePlateOCR_OpeningFcn, ...
-                   'gui_OutputFcn',  @LicensePlateOCR_OutputFcn, ...
+                   'gui_OpeningFcn', @PROJ_OpeningFcn, ...
+                   'gui_OutputFcn',  @PROJ_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 if nargin && ischar(varargin{1})
@@ -44,26 +44,26 @@ end
 % End initialization code - DO NOT EDIT
 
 
-% --- Executes just before LicensePlateOCR is made visible.
-function LicensePlateOCR_OpeningFcn(hObject, eventdata, handles, varargin)
+% --- Executes just before PROJ is made visible.
+function PROJ_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to LicensePlateOCR (see VARARGIN)
+% varargin   command line arguments to PROJ (see VARARGIN)
 
-% Choose default command line output for LicensePlateOCR
+% Choose default command line output for PROJ
 handles.output = hObject;
 
 % Update handles structure
 guidata(hObject, handles);
 
-% UIWAIT makes LicensePlateOCR wait for user response (see UIRESUME)
+% UIWAIT makes PROJ wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 
 % --- Outputs from this function are returned to the command line.
-function varargout = LicensePlateOCR_OutputFcn(hObject, eventdata, handles) 
+function varargout = PROJ_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
