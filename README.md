@@ -45,6 +45,8 @@ The recognition process consists of the following steps:
 
 ## Example
 
+![Application GUI](images/gui-example.png)
+
 ## Future Improvements
 
 - Automatic license plate localization from full vehicle images
