@@ -45,7 +45,7 @@ The recognition process consists of the following steps:
 
 ## Example
 
-![Application GUI](images/gui-example.png)
+![Application GUI](images/gui-example.PNG)
 
 ## Future Improvements
 
